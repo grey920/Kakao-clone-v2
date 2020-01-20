@@ -35,6 +35,16 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(1turn);
+  }
 }
 
 @keyframes showNavBar {
